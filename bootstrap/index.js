@@ -1,6 +1,7 @@
 let screen = document.getElementById('screen');
 buttons = document.querySelectorAll('button');
 let screenValue = '';
+let history = [];
 for (item of buttons) {
     item.addEventListener('click', (e) => {
         buttonText = e.target.innerText;
@@ -9,19 +10,25 @@ for (item of buttons) {
             buttonText = '*';
             screenValue += buttonText;
             screen.value = screenValue;
+            
         }
         else if (buttonText == 'C') {
             screenValue = "";
             screen.value = screenValue;
+           
         }
         else if (buttonText == '=') {
             screen.value = eval(screenValue);
+            var calculation = {ques: screenValue, ans: screen.value}
+          history.push(calculation)
         }
         else {
             screenValue += buttonText;
             screen.value = screenValue;
         }
-
+  
     })
+    
 }
+
 
