@@ -1,39 +1,69 @@
-.container{
-    text-align: center;
-    margin-top:23px
+.container {
+  text-align: center;
+  margin-top: 23px;
 }
 
-table{
-    margin: auto;
+table {
+  margin: auto;
 }
 
-input{
-    border-radius: 21px;
-    border: 5px solid #0f0f0f;
-    font-size:34px;
-    height: 40px;
-    width: 300px;
+input {
+  border-radius: 21px;
+  border: 5px solid #0f0f0f;
+  font-size: 34px;
+  height: 40px;
+  width: 300px;
 }
 
-button{
-    border-radius: 20px;
-    font-size: 40px;
-    background: #9eddf7;
-    width: 102px;
-    height: 90px;
-    margin: 6px;
+button {
+  border-radius: 20px;
+  font-size: 40px;
+  background: #9eddf7;
+  width: 50px;
+  height: 50px;
+  margin: 6px;
+}
+button:hover {
+  background-color: #858585;
+  color: white;
 }
 
-.calculator{ 
-    border: 4px solid #7e3f66;
-    background-color: #ff99f7;
-    padding: 23px;
-    border-radius: 53px;
-    display: inline-block;
-    
+.calculator {
+  border: 4px solid #7e3f66;
+  background-color: #ff99f7;
+  padding: 23px;
+  border-radius: 53px;
+  display: inline-block;
 }
 
-h1{
-    font-size: 28px;
-    font-family: 'Courier New', Courier, monospace;
+h1 {
+  font-size: 40px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+h2 {
+  text-align: right;
+  font-size: 32px;
+  font-family: "Courier New", Courier, monospace;
+}
+#History {
+  float: right;
+  width: 200px;
+  height: 150px;
+  background-color: #ff99f7;
+  border-radius: 5px;
+  margin-top: 40px;
+  padding: 10px;
+}
+
+#History-box {
+  width: 100px;
+  height: 300px;
+  resize: none;
+  overflow: hidden;
+}
+
+#History hr {
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
