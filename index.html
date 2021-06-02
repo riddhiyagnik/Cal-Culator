@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Calculator</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>CALCULATOR</h1>
+      <section>
+      <div class="calculator">
+        <input type="text" name="screen" id="screen" />
+        <table>
+          <!-- create button and assign value to each button -->
+          <tr>
+            <!-- first row -->
+            <td><button>(</button></td>
+            <td><button>)</button></td>
+            <td><button>C</button></td>
+            <td><button>%</button></td>
+          </tr>
+          <tr>
+            <!-- second row -->
+            <td><button>7</button></td>
+            <td><button>8</button></td>
+            <td><button>9</button></td>
+            <td><button>x</button></td>
+          </tr>
+          <tr>
+            <!-- third row -->
+            <td><button>4</button></td>
+            <td><button>5</button></td>
+            <td><button>6</button></td>
+            <td><button>-</button></td>
+          </tr>
+          <tr>
+            <!-- fourth row -->
+            <td><button>1</button></td>
+            <td><button>2</button></td>
+            <td><button>3</button></td>
+            <td><button>+</button></td>
+          </tr>
+          <tr>
+            <!-- fifth row -->
+            <td><button>0</button></td>
+            <td><button>.</button></td>
+            <td><button>/</button></td>
+            <td><button>=</button></td>
+          </tr>
+          <div id="History">
+            <span>Calculation history</span>
+            <hr>
+            <div id="History-boX"></div>
+          </div>
+        </table>
+      </div>
+    </div>
+  </section>
+  <section>
+    <h2 id="title">STOP WATCH</h2>
+    <div class="main">
+        <div id="stop-watch">
+            <h2 id="display"></h2>
+        </div>
+        <div class="interact">
+
+            <btn onclick="initiate()">Start</btn>
+            <btn onclick="stop()">Stop</btn>
+            <btn onclick="reset()">reset</btn>
+        </div>
+    </div>
+  </section>
+  </body>
+  <script src="index.js"></script>
+</html>

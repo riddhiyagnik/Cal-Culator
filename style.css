@@ -1,0 +1,128 @@
+  .container {
+  text-align: center;
+  margin-top: 23px;
+ }
+
+table {
+  margin: auto;
+ }
+
+input {
+  border-radius: 21px;
+  border: 5px solid #0f0f0f;
+  font-size: 34px;
+  height: 40px;
+  width: 300px;
+ }
+
+button {
+  border-radius: 20px;
+  font-size: 40px;
+  background: #9eddf7;
+  width: 50px;
+  height: 50px;
+  margin: 6px;
+ }
+button:hover {
+  background-color: #858585;
+  color: white;
+ }
+
+.calculator {
+  border: 4px solid #7e3f66;
+  background-color: #ff99f7;
+  padding: 23px;
+  border-radius: 53px;
+  display: inline-block;
+ }
+
+h1 {
+  background: black;
+  color: cornsilk;
+  font-size: 50px;
+  font-family: "Courier New", Courier, monospace;
+ }
+
+h2 {
+  text-align: right;
+  font-size: 40px;
+  font-family: "Courier New", Courier, monospace;
+ }
+#History {
+  float: right;
+  width: 200px;
+  height: 300px;
+  background-color: #ff99f7;
+  border-radius: 5px;
+  margin-top: 40px;
+  padding: 10px;
+  font-size: 28px;
+  overflow: scroll;
+ }
+
+#History-box {
+  width: 100px;
+  height: 300px;
+  resize: none;
+ }
+
+#History hr {
+  margin-top: 5px;
+  margin-bottom: 5px;
+ }
+
+ *{
+  margin-top: 15px;
+  padding: 0;
+  box-sizing: border-box;
+}
+#body{
+  background: linear-gradient(rgba(63,128,148,0.7),rgba(63,148,113,0.3));
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+ .main{
+  margin: auto;
+  margin-top: 90px;
+  width: 500px;
+}
+
+#display{
+  font-size: 80px;
+  background: rgba(122, 124, 120, 0.65);
+  padding: 30px;
+  color: #201931;
+  border: 5px solid #201931;
+  border-radius: 20px;
+}
+#title{
+  background: black;
+  color: cornsilk;
+  font-size: 50px;
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+}
+.interact{
+  text-align: center;
+  background: rgba(122, 124, 120, 0.65);
+  padding: 30px;
+  border: 5px solid #201931;
+  border-radius: 20px;
+}
+btn{
+  font-size: 30px;
+  margin: 0;
+  padding: 5px 15px;
+  text-transform: uppercase;
+  background: black;
+  color: cornsilk;
+  border: 5px solid #201931;
+  border-radius: 20px;
+  outline: none;
+}
+btn:hover{
+  color: black;
+  background: cornsilk;
+}
